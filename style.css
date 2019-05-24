@@ -1,0 +1,482 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+html {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: rgb(255, 0, 0);
+}
+	
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+/**********************************************************
+                            SECTION-TOP
+***********************************************************/
+h1 {
+    color: rgb(244, 250, 255);
+    font-size: 80px;
+    text-decoration: underline overline rgb(255, 225, 54);
+    text-shadow: 3px 2px rgba(58, 52, 1, 0.603);
+}
+
+#section-1-title {
+    width: inherit;
+    display: flex;
+    margin: 100px;
+    /* box-shadow: -0.01px -5px rgb(255, 238, 0); */
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    -ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Safari */
+    transform: rotate(-9deg);
+}
+
+h3 {
+    color: rgba(25, 51, 128, 0.671);
+    font-size: 50px;
+    margin-top: 100px;
+    text-transform: uppercase;
+    
+}
+body {
+    background-color: #16b8c4;
+}
+
+#section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('img/adventure-beach-bikini-191741.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 72%, 42% 99%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0, 100% 72%, 42% 99%, 0% 100%);
+}
+
+#section-1 .btn a{
+    color: white;
+    background-color: rgba(25, 87, 128, 0.671);
+    text-decoration: none;
+    padding: 20px 46px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    opacity: 1;
+    border: 2px solid white;
+}
+
+div.btn {
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+#section-1 .btn a:hover{
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(18, 17, 112);
+}
+
+@media(max-width: 1000px) {
+    h1 {
+        font-size: 60px;
+        color: rgb(255, 255, 255);
+        text-decoration: underline overline rgb(255, 225, 54);
+    }
+    
+    #section-1-title {
+        width: inherit;
+        display: flex;
+        margin: 80px;
+        /* box-shadow: -0.01px -5px rgb(255, 238, 0); */
+        flex-direction: column;
+        align-items: center;
+        float: left;
+        -ms-transform: rotate(-5deg); /* IE 9 */
+        -webkit-transform: rotate(-7deg); /* Safari */
+        transform: rotate(-9deg);
+    }
+    
+    h3 {
+        font-size: 30px;
+        margin-top: 60px;
+        color: rgb(255, 225, 54);
+    }
+    
+   
+    #section-1 .btn a{
+        padding: 15px 46px;
+    }
+    
+    div.btn {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    
+    #section-1 a.btn:hover{
+        color: rgb(18, 17, 112);
+        border: 2px solid rgb(18, 17, 112);
+    }
+}
+@media(max-width: 600px) {
+    h1 {
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        text-decoration: underline overline rgb(255, 225, 54);
+    }
+    
+    #section-1-title {
+        width: inherit;
+        display: flex;
+        margin: 50px;
+        /* box-shadow: -0.01px -5px rgb(255, 238, 0); */
+        flex-direction: column;
+        align-items: center;
+        float: left;
+        -ms-transform: rotate(-5deg); /* IE 9 */
+        -webkit-transform: rotate(-7deg); /* Safari */
+        transform: rotate(-9deg);
+    }
+    
+    h3 {
+        font-size: 20px;
+        margin-top: 60px;
+        color: rgb(255, 225, 54);
+    }
+    
+    #section-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url('img/adventure-beach-bikini-191741.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #section-1 .btn a{
+        padding: 10px 20px;
+    }
+    
+    div.btn {
+        margin-bottom: 30px;
+    }
+    
+    #section-1 a.btn:hover{
+        color: rgb(18, 17, 112);
+        border: 2px solid rgb(18, 17, 112);
+    }
+}
+/**********************************************************
+                            SECTION-BLOCKS
+***********************************************************/
+#section-2 {
+    background-color: #16b8c4;
+    margin-bottom: 25px;
+}
+#section-2 ul {
+    list-style: none;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+div #section-2 ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section-2 .image img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+div .info-block {
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    box-shadow: 8px 8px 9px rgba(2, 89, 110, 0.582);
+    background-color:  rgba(4, 81, 112, 0.397);
+    
+}
+
+.description .tittle{
+    color: azure;
+    font-size: 35px;
+    margin-top: 25px;
+    text-decoration: underline overline rgb(255, 225, 54);
+    
+}
+
+div .img-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 25px 25px 25px;
+}
+
+div .text{
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #131622
+}
+
+#section-2 .icon {
+    font-size: 200px;
+    margin: 20px;
+    color: rgba(13, 216, 199, 0.644);
+}
+
+@media(max-width: 1000px) {
+    #section-2 ul{
+            list-style: none;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+    }
+
+    #section-2 ul li{
+        padding: 35px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    div .info-block {
+        margin: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+
+/**********************************************************
+                            SECTION-PICTURES
+***********************************************************/
+div .section-pictures {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 8px 8px 9px rgba(2, 89, 110, 0.582);
+}
+
+div .image-describtion{
+    
+    height: 650px;
+}
+
+.section-pictures div .description-clip{
+    
+    background-color: rgba(233, 235, 235, 0.616);
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    margin-left: 5%; 
+    width: 40%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+div .description-clip p{
+    margin-top: -10%;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    color: rgb(51, 51, 51);
+}
+
+
+
+.section-pictures div .img1 {
+    background-image: url('img/action-activity-adventure-1374543.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+.section-pictures div .img2 {
+    background-image: url('img/active-carefree-dock-66086.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+.section-pictures div .img3 {
+    background-image: url('img/blur-bread-delicious-1832689.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+.section-pictures div .img4 {
+    background-image: url('img/active-activity-boy-1292720.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+
+
+@media(max-width: 1000px) {
+        
+    div .image-describtion{
+        
+        height: 350px;
+    }
+    
+    .section-pictures div .description-clip{
+        
+        background-color: rgba(233, 235, 235, 0.616);
+        -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+        margin-left: 5%; 
+        width: 40%;
+        height: 35%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+    }
+    
+    div .description-clip p{
+        margin-top: -10%;
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+        align-items: center;
+        text-align: center;
+        color: rgb(51, 51, 51);
+    }
+
+    .section-pictures div .img1 {
+        background-image: url('img/action-activity-adventure-1374543.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+    }
+    
+    .section-pictures div .img2 {
+        background-image: url('img/active-carefree-dock-66086.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+    }
+    
+    .section-pictures div .img3 {
+        background-image: url('img/blur-bread-delicious-1832689.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+    }
+    
+    .section-pictures div .img4 {
+        background-image: url('img/active-activity-boy-1292720.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+    }
+}
+
+
+
+/**********************************************************
+                            FOOTER
+***********************************************************/
+
+footer ul {
+    list-style: none;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+footer li {
+    padding: 0px 10px 0px 10px; 
+}
+
+footer {
+    background-color: #131622;
+    color: rgba(17, 10, 10, 0.767);
+    text-align: center;
+    background: linear-gradient(to bottom, #16b8c4, rgba(226, 255, 60, 0.281) 100%);
+    padding: 50px 0;	
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer #icon{
+    font-size: 500%;
+    color: rgb(9, 48, 180);
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+    
+}
+
+.footer-text {
+    font-size: 24px;
+    cursor: pointer;
+    color: darkslategray;
+    filter: drop-shadow(0 0 0.75rem rgba(13, 216, 199, 0.644));
+  }
+
+
+@media(max-width: 800px) {
+    footer {
+      padding: 20px 15px;
+    }
+
+    .footer-text {
+        font-size: 18px;
+        cursor: pointer;
+        color: darkslategray;
+        filter: drop-shadow(0 0 0.75rem rgba(13, 216, 199, 0.644));
+    }
+    footer #icon{
+        font-size: 300%;
+    }
+
+    footer li {
+        padding: 0px 5px 0px 5px; 
+    }
+}
+@media(max-width: 600px) {
+    footer {
+        padding: 10px 10px;
+      }
+  
+      .footer-text {
+          font-size: 12px;
+          cursor: pointer;
+          color: darkslategray;
+          filter: drop-shadow(0 0 0.75rem rgba(13, 216, 199, 0.644));
+      }
+      footer #icon{
+          font-size: 200%;
+      }
+  
+      footer li {
+          padding: 0px 0px 0px 5px; 
+      }
+
+      footer ul {
+        margin-bottom: 10px;
+    }
+}
